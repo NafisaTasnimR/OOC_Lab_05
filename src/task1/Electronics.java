@@ -1,7 +1,7 @@
 package task1;
 
 public class Electronics extends Product{
-    Electronics(String name,int quantity,Double price){
+    public Electronics(String name, int quantity, Double price){
         super(name,quantity,price);
     }
 

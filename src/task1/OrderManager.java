@@ -6,7 +6,7 @@ import java.util.List;
 public class OrderManager {
     List<Product> productList;
 
-    OrderManager(List<Product> products){
+    public OrderManager(List<Product> products){
         this.productList = products;
     }
 
